@@ -9,9 +9,7 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
     if(!file_exists("/tmp/Simulator/"))
         mkdir("/tmp/Simulator/");
     $target_dir = "/tmp/Simulator/TestAt" . $sim->Moment() . "/";
-
-    if(!file_exists($target_dir))
-        mkdir($target_dir);
+    mkdir($target_dir);
     $target_file = $target_dir . $tester->inputFile;
     $uploadOk = 1;
     $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
