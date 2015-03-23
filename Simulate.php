@@ -17,7 +17,6 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
 
     if(basename($_FILES["file"]["name"]) != $tester->inputFile){
         $errorMessage = "Dosya adı bu tester için '".$tester->inputFile."'' şeklinde olmalı, bi düzelt öyle deneyelim.";
-        exit();
     }
     /*if (!preg_match("/^\\w*\\.\\w*$/", $_FILES["file"]["name"]))
     {
