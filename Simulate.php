@@ -3,7 +3,7 @@ include "simulator/Simulator.php";
 
 if (isset($_POST["up"]) && $_POST["up"] == "y") {
     $tester = TesterInfo::FromDB($_POST["tester_id"]);
-
+    $hasError = false;
     $sim = new Simulator($tester);
 
     if(!file_exists("/tmp/Simulator/"))
@@ -18,7 +18,7 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
 
 
     if(basename($_FILES["file"]["name"]) != $tester->inputFile){
-        echo "Dosya adı bu tester için '".$tester->inputFile."'' şeklinde olmalı";
+        $errorMessage = "Dosya adı bu tester için '".$tester->inputFile."'' şeklinde olmalı, bi düzelt öyle deneyelim.";
         exit();
     }
     /*if (!preg_match("/^\\w*\\.\\w*$/", $_FILES["file"]["name"]))
@@ -26,13 +26,13 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
         echo "dosya ismi 'isim.uzanti' seklinde olabilir";
     }*/
 
-    if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
+    if (!$hasError && move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
         $simID = $sim->Simulate($tester->inputFile, md5_file($target_file));
         header("Location: Result.php?id={$simID}");
+        return;
     } else {
-        echo "dosyani yukleyemedim, bunun pek cok nedeni olabilir";
+        $errorMessage =  "dosyani yukleyemedim, bunun pek cok nedeni olabilir";
     }
-    return;
 }
 
 $id = $_GET["id"];
@@ -42,6 +42,12 @@ $tester = TesterInfo::FromDB($id);
 <?php include("structure/header.php") ?>
     <div class="container">
         <div class="row">
+            <?
+            if(isset($errorMessage)){
+                /* keko kod vol1.0 */
+                ?><div class="alert alert-danger"><?=$errorMessage;?></div><?
+            }
+            ?>
             <div class="col-lg-4">
                 <div class="panel panel-info">
                     <div class="panel-heading">
