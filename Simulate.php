@@ -67,6 +67,7 @@ $tester = TesterInfo::FromDB($id);
                                 <label for="exampleInputFile">test et</label>
                                 <input type="file" name="file"/>
                             </div>
+
                             <div class="form-group">
                                 <button type="submit" class="btn btn-success">test edeyim</button>
                             </div>
