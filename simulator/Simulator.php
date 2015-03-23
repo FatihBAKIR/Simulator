@@ -112,11 +112,11 @@ class Simulator
         $command->Append("cd ..");
         $command->Append("rm -rf {$dName}");
 
-        $command->Execute();
+        $out = $command->Execute();
 
         $this->md5 = $md5;
 
-        return $this->Save($name, $command->Command());
+        return $this->Save($name, $command->Command()."\n\nOutput:\n".$out);
     }
 
     public function Save($name, $cmd)
