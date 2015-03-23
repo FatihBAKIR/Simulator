@@ -6,16 +6,20 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
 
     $sim = new Simulator($tester);
 
-    mkdir("/tmp/Simulator/");
+    if(!file_exists("/tmp/Simulator/"))
+        mkdir("/tmp/Simulator/");
     $target_dir = "/tmp/Simulator/TestAt" . $sim->Moment() . "/";
-    mkdir($target_dir);
+
+    if(!file_exists($target_dir))
+        mkdir($target_dir);
     $target_file = $target_dir . $tester->inputFile;
     $uploadOk = 1;
     $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
 
-    if(!basename($_FILES["file"]["name"]) != $tester->inputFile){
-        echo "dosya adı bu tester için ".$tester->inputFile." şeklinde olmalı";
+    if(basename($_FILES["file"]["name"]) != $tester->inputFile){
+        echo "Dosya adı bu tester için '".$tester->inputFile."'' şeklinde olmalı";
+        exit();
     }
     /*if (!preg_match("/^\\w*\\.\\w*$/", $_FILES["file"]["name"]))
     {
