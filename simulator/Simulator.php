@@ -9,6 +9,7 @@ class TesterInfo
     public $id;
     public $author;
     public $name;
+    public $inputFile;
 
     public static function FromDB($id)
     {
@@ -20,6 +21,7 @@ class TesterInfo
         $t->author = $meta["author"];
         $t->name = $meta["name"];
         $t->cmd = $meta["command"];
+        $t->inputFile = $meta["file_type"];
 
         $t->files = [];
         foreach ($files as $file) {

@@ -9,17 +9,17 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
     mkdir("/tmp/Simulator/");
     $target_dir = "/tmp/Simulator/TestAt" . $sim->Moment() . "/";
     mkdir($target_dir);
-    $target_file = $target_dir . basename($_FILES["file"]["name"]);
+    $target_file = $target_dir . $tester->inputFile;
     $uploadOk = 1;
     $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
-    if (!preg_match("/^\\w*\\.\\w*$/", $_FILES["file"]["name"]))
+    /*if (!preg_match("/^\\w*\\.\\w*$/", $_FILES["file"]["name"]))
     {
         echo "dosya ismi 'isim.uzanti' seklinde olabilir";
-    }
+    }*/
 
     if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
-        $simID = $sim->Simulate(basename($_FILES["file"]["name"]), md5_file($target_file));
+        $simID = $sim->Simulate($tester->inputFile, md5_file($target_file));
         header("Location: Result.php?id={$simID}");
     } else {
         echo "dosyani yukleyemedim, bunun pek cok nedeni olabilir";
