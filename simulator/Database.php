@@ -64,6 +64,14 @@ class Database
         $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
         return $rows;
     }
+
+    public static function TesterTests($id, $count = 10)
+    {
+        $stmt = self::$db->prepare("SELECT * FROM TestInstances where tester_id = ? ORDER BY id DESC LIMIT $count");
+        $stmt->execute(array($id));
+        $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $rows;
+    }
 }
 
 Database::Init(new PDO('mysql:host=localhost;dbname=sim', "root", ""));

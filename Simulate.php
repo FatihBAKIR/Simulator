@@ -51,7 +51,7 @@ if ($tester->id == -1)
             }
             ?>
             <div class="col-lg-4">
-                <div class="panel panel-info">
+                <div class="panel panel-primary">
                     <div class="panel-heading">
                         <h3 class="panel-title">Bilgiler</h3>
                     </div>
@@ -59,6 +59,23 @@ if ($tester->id == -1)
                         <strong>Ne bu:</strong> <?= $tester->name ?>
                         <br/>
                         <strong>Kim yapmis:</strong> <?= $tester->author ?>
+                    </div>
+                </div>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">bu testerla son testler</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <?php
+                            foreach (Database::TesterTests($tester->id) as $test)
+                            {
+                                ?>
+                                <li><a href="Result.php?id=<?=$test["id"] ?>">Test #<?=$test["id"] ?></a></li>
+                            <?php
+                            }
+                            ?>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -79,6 +96,8 @@ if ($tester->id == -1)
                             <div class="form-group">
                                 <button type="submit" class="btn btn-success">test edeyim</button>
                             </div>
+
+                            <strong><i>dosya ismi su olmali: </i></strong><?= $tester->inputFile ?>
 
                             <div class="alert alert-success">
                                 dosyalariniz testerin isi bitince serverdan siliniyor
