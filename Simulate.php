@@ -14,7 +14,7 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
     $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
 
-    if(!basename($_FILES["file"]["name"]) == $tester->inputFile){
+    if(!basename($_FILES["file"]["name"]) != $tester->inputFile){
         echo "dosya adı bu tester için ".$tester->inputFile." şeklinde olmalı";
     }
     /*if (!preg_match("/^\\w*\\.\\w*$/", $_FILES["file"]["name"]))
