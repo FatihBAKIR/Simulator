@@ -8,15 +8,18 @@
                     <h3 class="panel-title">Bilgiler</h3>
                 </div>
                 <div class="panel-body">
+                    Merhabalar
+                    <hr />
                     Bu sitede testerlar falan var (henuz cok yok)
-                    <br />
-                    <br />
+                    <hr />
                     Sag taraftan en son yuklenen 10 tester ve yapilan son 10 testin sonucuna ulasabilirsiniz
-                    <br />
-                    <br />
+                    <hr />
                     Testler anonim olarak yapiliyor (ip yada kim oldugunuz zaten tutulmuyor ve dosyalariniz falan test
                     bitince siliniyor), korkmaniza gerek yok, neler yapiliyor ediliyor hepsi zaten sonuc sayfasinin
                     altinda yaziyor
+                    <hr />
+                    Hatta buradaki her sey acik kaynak sekilde github'da duruyor, inceleyip gelistirip merge request
+                    acmakta ozgursunuz
                 </div>
             </div>
         </div>

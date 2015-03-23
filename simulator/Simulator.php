@@ -37,7 +37,7 @@ class Command
     public function Append($str)
     {
         if ($this->cCount > 0)
-            $this->cmd .= " && ";
+            $this->cmd .= " ; ";
 
         $this->cmd .= "{$str}";
 
@@ -46,7 +46,7 @@ class Command
 
     public function Command()
     {
-        return str_replace("&& ", "&&\n", $this->cmd);
+        return str_replace("; ", ";\n", $this->cmd);
     }
 
     public function Execute()
@@ -103,7 +103,7 @@ class Simulator
             $command->Append("cp {$TesterPath}/{$file} {$file}");
 
         $command->Append("cp {$this->input} .");
-        $command->Append("{$this->tester->cmd} > out.txt");
+        $command->Append("{$this->tester->cmd} > out.txt 2>&1");
         $command->Append("mkdir {$ResultsPath}/{$dName}");
         $command->Append("cp out.txt {$ResultsPath}/{$dName}/");
         $command->Append("rm -rf $UserPath");
@@ -119,6 +119,6 @@ class Simulator
 
     public function Save($name, $cmd)
     {
-        return Database::MakeTestInstance(1, $name, $this->md5, $this->moment, $cmd);
+        return Database::MakeTestInstance($this->tester->id, $name, $this->md5, $this->moment, $cmd);
     }
 }

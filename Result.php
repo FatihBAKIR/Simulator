@@ -18,7 +18,7 @@ $tester = Database::TesterByID($sim["tester_id"]);
                     <br />
                     <strong>Kim yapmis:</strong> <?=$tester["author"]?>
                     <br />
-                    <strong>Aynisindan:</strong> <a href="Simulate.php?id=<?=$tester["id"]?>">Test et</a>
+                    <strong>Aynisindan:</strong> <a href="Simulate.php?id=<?=$tester["id"]?>">aliyorum bi dal</a>
                 </div>
             </div>
             <div class="panel panel-success">

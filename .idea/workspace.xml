@@ -28,7 +28,7 @@
       <file leaf-file-name="Simulator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulator/Simulator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-38.923077" vertical-offset="705" max-vertical-offset="2193">
+            <state vertical-scroll-proportion="-53.346153" vertical-offset="330" max-vertical-offset="2210">
               <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
               <folding />
             </state>
@@ -38,18 +38,18 @@
       <file leaf-file-name="Simulate.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Simulate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077" vertical-offset="493" max-vertical-offset="1734">
-              <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+            <state vertical-scroll-proportion="-30.076923" vertical-offset="306" max-vertical-offset="1836">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/structure/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="272">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -58,8 +58,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.961538" vertical-offset="42" max-vertical-offset="935">
-              <caret line="33" column="17" selection-start-line="24" selection-start-column="12" selection-end-line="33" selection-end-column="17" />
+            <state vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="986">
+              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -75,19 +75,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simulator/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="289" max-vertical-offset="1224">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8657453" vertical-offset="211" max-vertical-offset="1224">
+              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1427067131000" expanded="true" signature="376:459" placeholder="INSERT INTO ..." />
-                <marker date="1427067131000" expanded="true" signature="677:715" placeholder="SELECT * FRO..TestInstances..." />
-                <marker date="1427067131000" expanded="true" signature="923:955" placeholder="SELECT * FRO..Testers..." />
-                <marker date="1427067131000" expanded="true" signature="1164:1209" placeholder="SELECT * FRO..Testers_files..." />
-                <marker date="1427067131000" expanded="true" signature="1422:1462" placeholder="SELECT * FRO..Testers..." />
-                <marker date="1427067131000" expanded="true" signature="1676:1727" placeholder="SELECT * FRO..TestInstances..." />
+                <marker date="1427140545886" expanded="true" signature="376:459" placeholder="INSERT INTO ..." />
+                <marker date="1427140545886" expanded="true" signature="677:715" placeholder="SELECT * FRO..TestInstances..." />
+                <marker date="1427140545886" expanded="true" signature="923:955" placeholder="SELECT * FRO..Testers..." />
+                <marker date="1427140545886" expanded="true" signature="1164:1209" placeholder="SELECT * FRO..Testers_files..." />
+                <marker date="1427140545886" expanded="true" signature="1422:1462" placeholder="SELECT * FRO..Testers..." />
+                <marker date="1427140545886" expanded="true" signature="1676:1727" placeholder="SELECT * FRO..TestInstances..." />
               </folding>
             </state>
           </provider>
@@ -112,13 +112,13 @@
         <option value="$PROJECT_DIR$/testResult.php" />
         <option value="$PROJECT_DIR$/simulator/Simulate.php" />
         <option value="$PROJECT_DIR$/Test.php" />
-        <option value="$PROJECT_DIR$/structure/footer.php" />
         <option value="$PROJECT_DIR$/structure/header.php" />
-        <option value="$PROJECT_DIR$/simulator/Database.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Result.php" />
         <option value="$PROJECT_DIR$/simulator/Simulator.php" />
+        <option value="$PROJECT_DIR$/structure/footer.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Simulate.php" />
+        <option value="$PROJECT_DIR$/simulator/Database.php" />
       </list>
     </option>
   </component>
@@ -130,7 +130,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -253,9 +253,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -263,6 +260,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -281,7 +281,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -296,14 +296,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -329,6 +329,70 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/simulator/Simulator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2193">
+          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1734">
+          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="272">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="680">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulator/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1224">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1427140545886" expanded="true" signature="376:459" placeholder="INSERT INTO ..." />
+            <marker date="1427140545886" expanded="true" signature="677:715" placeholder="SELECT * FRO..TestInstances..." />
+            <marker date="1427140545886" expanded="true" signature="923:955" placeholder="SELECT * FRO..Testers..." />
+            <marker date="1427140545886" expanded="true" signature="1164:1209" placeholder="SELECT * FRO..Testers_files..." />
+            <marker date="1427140545886" expanded="true" signature="1422:1462" placeholder="SELECT * FRO..Testers..." />
+            <marker date="1427140545886" expanded="true" signature="1676:1727" placeholder="SELECT * FRO..TestInstances..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="969">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simulator/Simulator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2176">
@@ -367,12 +431,12 @@
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1427067131000" expanded="true" signature="376:459" placeholder="INSERT INTO ..." />
-            <marker date="1427067131000" expanded="true" signature="677:715" placeholder="SELECT * FRO..TestInstances..." />
-            <marker date="1427067131000" expanded="true" signature="923:955" placeholder="SELECT * FRO..Testers..." />
-            <marker date="1427067131000" expanded="true" signature="1164:1209" placeholder="SELECT * FRO..Testers_files..." />
-            <marker date="1427067131000" expanded="true" signature="1422:1462" placeholder="SELECT * FRO..Testers..." />
-            <marker date="1427067131000" expanded="true" signature="1676:1727" placeholder="SELECT * FRO..TestInstances..." />
+            <marker date="1427140545886" expanded="true" signature="376:459" placeholder="INSERT INTO ..." />
+            <marker date="1427140545886" expanded="true" signature="677:715" placeholder="SELECT * FRO..TestInstances..." />
+            <marker date="1427140545886" expanded="true" signature="923:955" placeholder="SELECT * FRO..Testers..." />
+            <marker date="1427140545886" expanded="true" signature="1164:1209" placeholder="SELECT * FRO..Testers_files..." />
+            <marker date="1427140545886" expanded="true" signature="1422:1462" placeholder="SELECT * FRO..Testers..." />
+            <marker date="1427140545886" expanded="true" signature="1676:1727" placeholder="SELECT * FRO..TestInstances..." />
           </folding>
         </state>
       </provider>
@@ -420,7 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3419227" vertical-offset="4173" max-vertical-offset="20556">
           <caret line="251" column="9" selection-start-line="251" selection-start-column="9" selection-end-line="251" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,22 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulator/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1224">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1427067131000" expanded="true" signature="376:459" placeholder="INSERT INTO ..." />
-            <marker date="1427067131000" expanded="true" signature="677:715" placeholder="SELECT * FRO..TestInstances..." />
-            <marker date="1427067131000" expanded="true" signature="923:955" placeholder="SELECT * FRO..Testers..." />
-            <marker date="1427067131000" expanded="true" signature="1164:1209" placeholder="SELECT * FRO..Testers_files..." />
-            <marker date="1427067131000" expanded="true" signature="1422:1462" placeholder="SELECT * FRO..Testers..." />
-            <marker date="1427067131000" expanded="true" signature="1676:1727" placeholder="SELECT * FRO..TestInstances..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33297062" vertical-offset="1836" max-vertical-offset="8721">
@@ -464,17 +511,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/structure/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="272">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.961538" vertical-offset="42" max-vertical-offset="935">
-          <caret line="33" column="17" selection-start-line="24" selection-start-column="12" selection-end-line="33" selection-end-column="17" />
+        <state vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="986">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simulator/Simulator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-38.923077" vertical-offset="705" max-vertical-offset="2193">
+        <state vertical-scroll-proportion="-53.346153" vertical-offset="330" max-vertical-offset="2210">
           <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
           <folding />
         </state>
@@ -482,17 +537,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Simulate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077" vertical-offset="493" max-vertical-offset="1734">
-          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+        <state vertical-scroll-proportion="-30.076923" vertical-offset="306" max-vertical-offset="1836">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structure/footer.php">
+    <entry file="file://$PROJECT_DIR$/simulator/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1022">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.8657453" vertical-offset="211" max-vertical-offset="1224">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1427140545886" expanded="true" signature="376:459" placeholder="INSERT INTO ..." />
+            <marker date="1427140545886" expanded="true" signature="677:715" placeholder="SELECT * FRO..TestInstances..." />
+            <marker date="1427140545886" expanded="true" signature="923:955" placeholder="SELECT * FRO..Testers..." />
+            <marker date="1427140545886" expanded="true" signature="1164:1209" placeholder="SELECT * FRO..Testers_files..." />
+            <marker date="1427140545886" expanded="true" signature="1422:1462" placeholder="SELECT * FRO..Testers..." />
+            <marker date="1427140545886" expanded="true" signature="1676:1727" placeholder="SELECT * FRO..TestInstances..." />
+          </folding>
         </state>
       </provider>
     </entry>

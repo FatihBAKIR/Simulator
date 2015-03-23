@@ -13,6 +13,11 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
     $uploadOk = 1;
     $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
+    if (!preg_match("/^\\w*\\.\\w*$/", $_FILES["file"]["name"]))
+    {
+        echo "dosya ismi 'isim.uzanti' seklinde olabilir";
+    }
+
     if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
         $simID = $sim->Simulate(basename($_FILES["file"]["name"]), md5_file($target_file));
         header("Location: Result.php?id={$simID}");
@@ -79,7 +84,7 @@ $tester = TesterInfo::FromDB($id);
                             foreach ($tester->files as $file)
                             {
                                 ?>
-                                <li><a href="simulator/Files/Testers/<?=$file ?>"><?=$file ?></a></li>
+                                <li><a href="simulator/Files/Testers/Tester<?=$tester->id ?>/<?=$file ?>"><?=$file ?></a></li>
                             <?php
                             }
                             ?>
