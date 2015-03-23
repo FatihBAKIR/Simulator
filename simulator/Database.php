@@ -36,6 +36,8 @@ class Database
         $stmt = self::$db->prepare("SELECT * FROM Testers WHERE id=?");
         $stmt->execute(array($id));
         $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        if (count($rows) == 0)
+            return null;
         return $rows[0];
     }
 

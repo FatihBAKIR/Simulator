@@ -18,6 +18,8 @@ class TesterInfo
 
         $t = new TesterInfo();
         $t->id = $meta["id"];
+        if ($meta == null)
+            $t->id = -1;
         $t->author = $meta["author"];
         $t->name = $meta["name"];
         $t->cmd = $meta["command"];

@@ -1,9 +1,9 @@
 <?php
 include "simulator/Simulator.php";
 
+$errorMessage = "";
 if (isset($_POST["up"]) && $_POST["up"] == "y") {
     $tester = TesterInfo::FromDB($_POST["tester_id"]);
-    $hasError = false;
     $sim = new Simulator($tester);
 
     if(!file_exists("/tmp/Simulator/"))
@@ -23,7 +23,7 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
         echo "dosya ismi 'isim.uzanti' seklinde olabilir";
     }*/
 
-    if (!$hasError && move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
+    if ($errorMessage == "" && move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
         $simID = $sim->Simulate($tester->inputFile, md5_file($target_file));
         header("Location: Result.php?id={$simID}");
         return;
@@ -34,15 +34,20 @@ if (isset($_POST["up"]) && $_POST["up"] == "y") {
 
 $id = $_GET["id"];
 $tester = TesterInfo::FromDB($id);
+
+if ($tester->id == -1)
+    $errorMessage = "bence boyle bir tester yok";
 ?>
 
 <?php include("structure/header.php") ?>
     <div class="container">
         <div class="row">
-            <?
-            if(isset($errorMessage)){
+            <?php
+            if($errorMessage != ""){
                 /* keko kod vol1.0 */
-                ?><div class="alert alert-danger"><?=$errorMessage;?></div><?
+                ?>
+                <div class="alert alert-danger"><?=$errorMessage ?></div>
+            <?php
             }
             ?>
             <div class="col-lg-4">
