@@ -57,6 +57,10 @@ $tester = TesterInfo::FromDB($id);
                             <div class="form-group">
                                 <button type="submit" class="btn btn-success">test edeyim</button>
                             </div>
+
+                            <div class="alert alert-success">
+                                dosyalariniz testerin isi bitince serverdan siliniyor
+                            </div>
                         </form>
                     </div>
                 </div>
